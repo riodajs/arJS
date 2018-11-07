@@ -1,0 +1,15 @@
+{
+  "name": "arjs",
+  "version": "1.0.0",
+  "description": "test micro arduino con js",
+  "main": "micExample.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug"
+  },
+  "author": "riodajs",
+  "license": "MIT",
+  "dependencies": {
+    "firmata-party": "^1.5.10",
+    "johnny-five": "latest"
+  }
+}
